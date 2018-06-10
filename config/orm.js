@@ -31,7 +31,7 @@ function objToSql(ob) {
                 value = "'" + value + "'";
             }
             // e.g. {name: 'Lana Del Grey'} => ["name='Lana Del Grey'"]
-            // e.g. {sleepy: true} => ["sleepy=true"]
+            // e.g. {devoured: true} => ["devoured=true"]
             arr.push(key + "=" + value);
         }
     }
